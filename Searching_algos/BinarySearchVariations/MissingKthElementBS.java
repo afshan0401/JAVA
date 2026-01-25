@@ -3,7 +3,7 @@ public class MissingKthElementBS {
         int[] arr = { 2, 3, 4, 7, 11 };
         int k = 5;
 
-        int kEl = bruteApproac(arr, k);
+        int kEl = missingKthUsingBS(arr, k);
         System.out.println("Missing el: " + kEl);
 
     }

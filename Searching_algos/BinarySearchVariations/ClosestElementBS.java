@@ -31,7 +31,7 @@ public class ClosestElementBS {
                 high = mid - 1;
         }
 
-        // edhe cases
+        // edge cases
         if (high < 0)
             return arr[0]; // target smaller than all
         if (low >= arr.length)
