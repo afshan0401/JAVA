@@ -44,6 +44,7 @@ public class AtmProgram {
                 }
                 default -> System.out.println("Invalid choice, try again...");
             }
+            sc.close();
         }
     }
     
