@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = { 13, 46, 24, 52, 20, 9 };
+        int[] arr = {13, 46, 24, 52, 20, 9};
         BubbleSort bs = new BubbleSort();
         // bs.bubbleSort(arr);
         bs.optimizedBubbleSort(arr);
