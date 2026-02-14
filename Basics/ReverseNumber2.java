@@ -7,16 +7,15 @@ public class ReverseNumber2 {
     }
 
     public static int reverseNumber(int n ){
-        int rev = 0;
-        int rem;
+        int reverseNo = 0;
+        int rem = 0;
 
-        while (n!=0) {
+        while(n!=0){
             rem = n%10;
-            rev = rev * 10 + rem;
+            reverseNo = reverseNo * 10 + rem;
             n /= 10;
         }
 
-
-        return rev;
+        return reverseNo;
     }
 }

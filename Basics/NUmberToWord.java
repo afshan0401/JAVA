@@ -20,8 +20,8 @@ public class NUmberToWord {
         }
         System.out.println("Reversed: " + rev);
         // convert digits into word
-       temp = num; //controls how many digits to process
-       // coz reversing loses zeros but temp keeps the count
+        temp = num; // controls how many digits to process
+        // coz reversing loses zeros but temp keeps the count
         while (temp != 0) {
             digit = rev % 10;
             System.out.print(wordArray[digit] + " ");

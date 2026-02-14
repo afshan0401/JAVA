@@ -26,7 +26,7 @@ public class arraylistPrac{
         System.out.println(Math.abs(d1-d2));
 
 
-
+        ArrayList<Integer> ars = new ArrayList<>();
 
     }
 }
