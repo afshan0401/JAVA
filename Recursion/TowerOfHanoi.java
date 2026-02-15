@@ -5,7 +5,6 @@ public class TowerOfHanoi {
     }
 
     public static void solve(int n, char source, char helper, char destination) {
-
         if (n == 1) {
             System.out.println("Move disk 1 from " + source + " to " + destination);
             return;
@@ -16,5 +15,6 @@ public class TowerOfHanoi {
         System.out.println("Move disk " + n + " from " + source + " to " + destination);
 
         solve(n - 1, helper, source, destination);
+
     }
 }
