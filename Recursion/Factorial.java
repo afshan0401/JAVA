@@ -10,7 +10,7 @@ public class Factorial {
         }
         System.out.println(prod);
 
-
+        //using factorial
         long ans = t1.recurFactorial(n);
         System.out.println(ans);
 
