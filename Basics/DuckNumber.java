@@ -1,15 +1,14 @@
 
-
 public class DuckNumber {
     public static void main(String[] args) {
-        // int n = 3405;
-        int n = 03405;
+        int n = 041;
 
-        String s = String.valueOf(n);
+        String num = String.valueOf(n);
 
-        if(s.charAt(0)!=('0') && s.contains("0")){
-            System.out.println("Duck number");
-        }else
-            System.out.println("not duck");
+        if (num.charAt(0) == '0') {
+            System.out.println("not duck number");
+        }
+
+        System.out.println(num.contains("0") ? "duck number" : "not duck number");
     }
 }

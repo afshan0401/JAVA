@@ -7,9 +7,9 @@ public class NaturalNumberPrint {
 
     public static void naturalNumberReverse(int n){
         if(n == 0) return;
-        System.out.print(n + " ");
 
-        naturalNumber(n-1);
+        System.out.print(n + " ");
+        naturalNumberReverse(n-1);
     }
     public static void naturalNumber(int n){
         if(n == 0) return;

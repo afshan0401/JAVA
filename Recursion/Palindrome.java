@@ -1,6 +1,6 @@
 public class Palindrome {
     public static void main(String[] args) {
-        String str = "radara";
+        String str = "radar";
         boolean flag = palindromeRecursive(str, 0, str.length() - 1);
         boolean flag2 = palindromeRecursive(str, 0);
 
